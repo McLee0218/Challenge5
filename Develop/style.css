@@ -69,3 +69,18 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+.container{
+  display: grid;
+  grid-template-columns: 8% 84% 8% ;
+  grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px ;
+}
+
+div.container {
+  background-color: #06AED5;
+  padding: 1em
+}
+
+.container > div:nth-child(odd) {
+  background-color: antiquewhite;
+}
